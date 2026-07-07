@@ -4,10 +4,18 @@ def load_styles():
     st.markdown("""
     <style>
 
+    /* =========================
+       App Background
+    ========================== */
+
     .stApp {
         background-color: #0b1220;
         color: white;
     }
+
+    /* =========================
+       Cards
+    ========================== */
 
     .card {
         background-color: #111827;
@@ -37,6 +45,10 @@ def load_styles():
         margin-bottom: 12px;
         border-radius: 10px;
     }
+
+    /* =========================
+       Dashboard Metrics
+    ========================== */
 
     .metric-card {
         background: linear-gradient(135deg, #111827, #0f172a);
@@ -70,6 +82,10 @@ def load_styles():
         font-weight: 800;
     }
 
+    /* =========================
+       Scan History Rows
+    ========================== */
+
     .scan-row {
         padding: 14px 16px;
         border-radius: 10px;
@@ -79,10 +95,11 @@ def load_styles():
         justify-content: space-between;
         align-items: center;
         font-weight: 600;
+        color: white;
     }
 
     .scan-row span {
-        color: #94a3b8;
+        color: #cbd5e1;
     }
 
     .critical {
@@ -101,40 +118,11 @@ def load_styles():
         border-left: 5px solid #22c55e;
     }
 
-    /* Streamlit Buttons */
+    /* =========================
+       Buttons
+    ========================== */
 
-    .stButton > button {
-        width: 100%;
-        background: linear-gradient(90deg, #1E88E5, #27B5FF);
-        color: white !important;
-        border: none;
-        border-radius: 12px;
-        padding: 0.7rem 1.2rem;
-        font-size: 18px;
-        font-weight: 700;
-        transition: all 0.25s ease;
-        box-shadow: 0 4px 14px rgba(39,181,255,.25);
-    }
-
-    .stButton > button:hover {
-        background: linear-gradient(90deg, #1976D2, #2196F3);
-        transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(39,181,255,.4);
-        color: white !important;
-    }
-
-    .stButton > button:focus {
-        outline: none;
-        border: none;
-        color: white !important;
-    }
-
-    .stButton > button p {
-        color: white !important;
-    }
-
-    /* Download Button */
-
+    .stButton > button,
     .stDownloadButton > button {
         width: 100%;
         background: linear-gradient(90deg, #1E88E5, #27B5FF);
@@ -148,6 +136,7 @@ def load_styles():
         box-shadow: 0 4px 14px rgba(39,181,255,.25);
     }
 
+    .stButton > button:hover,
     .stDownloadButton > button:hover {
         background: linear-gradient(90deg, #1976D2, #2196F3);
         transform: translateY(-2px);
@@ -155,8 +144,60 @@ def load_styles():
         color: white !important;
     }
 
+    .stButton > button p,
     .stDownloadButton > button p {
         color: white !important;
+    }
+
+    /* =========================
+       Text Area (Body Preview)
+    ========================== */
+
+    .stTextArea textarea {
+        background-color: #111827 !important;
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+        caret-color: #ffffff !important;
+        border: 1px solid #374151 !important;
+        border-radius: 12px !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        opacity: 1 !important;
+    }
+
+    .stTextArea textarea::placeholder {
+        color: #9ca3af !important;
+    }
+
+    .stTextArea label {
+        color: #e5e7eb !important;
+        font-weight: 700 !important;
+    }
+
+    /* Fix disabled textareas (Body Preview) */
+
+    .stTextArea textarea:disabled,
+    .stTextArea textarea[disabled] {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+        opacity: 1 !important;
+    }
+
+    /* =========================
+       Inputs
+    ========================== */
+
+    .stTextInput input,
+    .stSelectbox div[data-baseweb="select"] {
+        color: white !important;
+    }
+
+    /* =========================
+       Dataframe
+    ========================== */
+
+    .stDataFrame {
+        color: white;
     }
 
     </style>
