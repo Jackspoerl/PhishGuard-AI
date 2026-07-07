@@ -1,0 +1,20 @@
+From: support@micr0soft-login.com
+To: user@example.com
+Subject: Action Required: Verify Your Account
+Date: July 5, 2026
+
+Dear Customer,
+
+We noticed unusual activity in your Microsoft account.
+
+Please verify your account immediately to avoid suspension.
+
+Click here:
+
+http://micr0soft-login-security.com
+
+Failure to verify within 24 hours may result in permanent account suspension.
+
+Thank you,
+
+Microsoft Security Team

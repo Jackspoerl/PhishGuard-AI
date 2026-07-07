@@ -1,0 +1,13 @@
+From: newsletter@linkedin.com
+To: user@example.com
+Subject: Your weekly LinkedIn update
+Date: July 5, 2026
+
+Hi Jack,
+
+Here are your weekly professional updates and job recommendations.
+
+You can view your updates by logging into your LinkedIn account directly through the LinkedIn website.
+
+Thank you,
+LinkedIn Team

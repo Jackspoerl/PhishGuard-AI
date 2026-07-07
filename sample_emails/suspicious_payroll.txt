@@ -1,0 +1,17 @@
+From: payroll-updates@companynotice.com
+To: user@example.com
+Subject: Payroll Information Update Requested
+Date: July 5, 2026
+
+Hi Jack,
+
+We are updating employee payroll records this week.
+
+Please review your payroll information and confirm that your contact details are accurate.
+
+You can complete the review here:
+
+http://company-payroll-update.com
+
+Thank you,
+Payroll Support

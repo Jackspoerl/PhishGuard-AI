@@ -1,0 +1,15 @@
+From: shipping@amazon-updates.com
+To: employee@company.com
+Subject: Your package delivery has been delayed
+Date: July 6, 2026
+
+Hello,
+
+Your recent Amazon order has been delayed because of unexpected weather conditions.
+
+You can check the updated delivery estimate by visiting:
+
+https://amazon-delivery-status.com
+
+Thank you,
+Amazon Shipping

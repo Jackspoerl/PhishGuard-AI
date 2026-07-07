@@ -1,0 +1,14 @@
+From: documents@dropbox-share.net
+To: employee@company.com
+Subject: New document shared with you
+Date: July 6, 2026
+
+A confidential document has been shared with you.
+
+View the document here:
+
+https://dropbox-fileshare.net/open
+
+The document expires in 24 hours.
+
+Dropbox Team
